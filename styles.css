@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.parallax {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.parallax .caption {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.parallax .caption span {
+  padding: 18px;
+  background-color: #111;
+}
+.parallax .caption span.less-height,
+.parallax .caption span.scroll-up,
+.parallax .caption .cool {
+  font-size: 25px;
+  color: #f7f7f7;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.parallax .caption span.cool {
+  background-color: #111;
+}
+.parallax.first-image {
+  height: 100%;
+  background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+}
+.parallax.second-image {
+  background-image: url("https://www.w3schools.com/howto/img_parallax2.jpg");
+  height: 300px;
+}
+.parallax.third-image {
+  background-image: url("https://www.w3schools.com/howto/img_parallax3.jpg");
+  height: 300px;
+}
+.parallax.fourth-image {
+  background-image: url("https://i.ytimg.com/vi/sjCWGHQNaUo/maxresdefault.jpg");
+  height: 100%;
+}
+
+.parallax-demo {
+  color: #777;
+  background-color: white;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  letter-spacing: 5px;
+}
+
+.second-text,
+.third-text {
+  color: #ddd;
+  background-color: #282e34;
+  padding: 50px 80px;
+}
